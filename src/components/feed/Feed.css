@@ -1,0 +1,97 @@
+.c-feed-big-box{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+}
+.css-1i2jkh7-MuiPaper-root-MuiCard-root{
+    max-width: 100% !important;
+    border-radius: 10px !important;
+    box-shadow: none !important;
+}
+.c-card-info-box{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+}
+.css-ng52n7-MuiPaper-root-MuiCard-root{
+    box-shadow: none !important;
+    background: none !important;
+}
+.css-bhp9pd-MuiPaper-root-MuiCard-root{
+    box-shadow: none !important;
+    border-radius: 10px !important;
+}
+.c-position-img{
+    position: absolute;
+    bottom: 150%;
+}
+.c-card-info-box > h2{
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+}
+.c-card-link{
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration-style: dashed;
+    text-decoration-color: #000;
+}
+.c-card-link >span{
+ font-size: 14px;
+  font-weight: 500;
+  color: #000;
+}
+.c-card-link > img{
+    margin-right: 10px;
+}
+.c-circle{
+    width: 10px;
+    height: 10px;
+    background: #D0D3DB;
+    border-radius: 50%;
+}
+.c-circle-margin{
+    margin-left: 10px;
+}
+.c-star-text{
+    margin-left: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-star-text > i{
+ color: #FFB800;
+ font-size: 25px;
+}
+.c-shop-box{
+    padding: 10px;
+    margin-left: 20px;
+    background: #FFFFFF;
+    height: 100%;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
+.c-img-box, .c-info-box{
+    border-radius: 10px !important;
+    width: 100% !important;
+    height: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: column !important;
+}
+.c-img-box, .c-info-box{
+    color: #ECEFF3 !important;
+}
+.c-img-box{
+ background: #2E3456 ;
+}

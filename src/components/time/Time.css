@@ -1,0 +1,106 @@
+.c-data-item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    background: #F8F8F8;
+    padding: 10px 20px;
+    margin: 6px 0;
+}
+.c-day-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.c-day-box > span{
+    width: 8px;
+    height: 8px;
+    background: #45A524;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+.c-day-box > p, .c-date-box > p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+}
+.c-calendar-box{
+    margin: 40px 0;
+}
+.sdp{
+    box-shadow: none !important;
+    width: 100% !important;
+    padding:12px 0 !important;
+}
+.sdp--month-name{
+    position: relative;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.sdp--month-name::before{
+    left: -18px;
+    top: 9px;
+    content: '';
+    background-image: url('../../assets/data.png');
+    position: absolute;
+    width: 20px;
+    height: 20px;
+}
+.sdp--square-btn{
+    border-radius: 50% !important;
+    width: 46px !important;
+    height: 46px !important;
+    border: 1px solid #F8F8F8;
+    position: relative;
+    z-index: 1;
+}
+.sdp--square-btn::after{
+    content: '';
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    background: #F8F8F8;
+    bottom: 0;
+    border-radius: 50%;
+    z-index: -1;
+    border: none;
+    color: #A0A0A0;
+}
+.sdp--date-btn__selected {
+    z-index: 1;
+    border: 23px solid #45A524 !important;
+    color: white;
+    z-index: 2;
+}
+.sdp--dates-grid{
+    width: 100% !important;
+}
+.sdp--month-picker{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    position: relative;
+}
+.sdp--square-btn__shadowed{
+    position: absolute;
+    right: 0;
+}
+.sdp--square-btn__shadowed:nth-child(1){
+    right: 30px !important;
+}
+.sdp--square-btn__shadowed:nth-child(2){
+    right: -100% !important;
+}
+.sdp--month-picker > .sdp--square-btn__shadowed {
+    box-shadow: none !important;
+    border: none !important;
+    background: none !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+.sdp--square-btn__shadowed::after{
+    display: none !important;
+}
+.sdp--date-btn__selected ~ .sdp--square-btn::after{
+    display: none !important;
+}
